@@ -8,7 +8,7 @@ setup(
     author_email = 'zwar@sharklasers.com',
     classifiers = [
         'Intended Audience :: Developers',
-        'License :: OSI Approved:: MIT License',
+        'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7'
     ],
     keywords = 'network sniffer monitoring proxy',
