@@ -18,6 +18,7 @@ class Gui(Observer):
         """Setup the basic application frame."""
         self.app.setSize('1080x600')
         self.app.setFont(8)
+        self.app.setTitle(self.title)
         
         self.app.startScrollPane('Pane')
         self.app.addMessage(self.title, self.log)
@@ -30,8 +31,7 @@ class Gui(Observer):
 
         Updates the text on the text widget.
         """
-        if self.log is not '':
-            self.app.setMessage(self.title, self.log)
+        self.app.setMessage(self.title, self.log)
 
     def update(self, text=''):
         """Implementation of the observable update method.

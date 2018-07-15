@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name = 'pysniff',
     version = '0.0.1',
-    description = 'A simple netowrk sniffing application',
+    description = 'A simple network sniffing application',
     author = 'zWaR',
     author_email = 'zwar@sharklasers.com',
     classifiers = [
