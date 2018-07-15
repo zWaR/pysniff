@@ -8,6 +8,7 @@ Installation
 ------------
 
 ::
+
     pip install pysniff
 
 
@@ -20,4 +21,5 @@ PySniff binds to port 8080 and sniffs the browser network forwarded to that port
 To start the sniffer run:
 
 ::
+
     pysniff
