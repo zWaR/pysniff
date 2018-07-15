@@ -17,6 +17,12 @@ setup(
     install_requires = [
         'appjar'
     ],
+    url="https://github.com/zWaR/pysniff",
+    project_urls={
+        "Source Code": "https://github.com/zWaR/pysniff.git",
+        "Bug Tracker": "https://github.com/zWaR/pysniff/issues",
+        "Documentation": "https://github.com/zWaR/pysniff"
+    },
     entry_points = {
         'console_scripts': [
             'pysniff=pysniff.main:main'
