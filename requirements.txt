@@ -1,2 +1,2 @@
 appjar==0.93.0
-setuptools==40.0.0
+setuptools==65.5.1
